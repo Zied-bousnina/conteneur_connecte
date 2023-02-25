@@ -1,0 +1,113 @@
+{
+    "config": {
+        "adapter": [
+            "xhr",
+            "http"
+        ],
+        "data": "{\"email\":\"zusnina@yahoo.com\",\"password\":\"ssssssss\",\"confirm\":\"ssssssss\",\"name\":\"ss\"}",
+        "env": {
+            "Blob": [Function Blob
+            ],
+            "FormData": [Function FormData
+            ]
+        },
+        "headers": [Object
+        ],
+        "maxBodyLength": -1,
+        "maxContentLength": -1,
+        "method": "post",
+        "timeout": 0,
+        "transformRequest": [
+            [Function transformRequest
+            ]
+        ],
+        "transformResponse": [
+            [Function transformResponse
+            ]
+        ],
+        "transitional": {
+            "clarifyTimeoutError": false,
+            "forcedJSONParsing": true,
+            "silentJSONParsing": true
+        },
+        "url": "http://192.168.1.16:3000/api/users",
+        "validateStatus": [Function validateStatus
+        ],
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN"
+    },
+    "data": {
+        "msg": "A Otp has been sent to your registered email address.",
+        "success": true
+    },
+    "headers": {
+        "connection": "keep-alive",
+        "content-length": "78",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Fri, 24 Feb 2023 19:31:54 GMT",
+        "etag": "W/\"4e-GQB7wgcONr8xCHXm6QO4f22dD1w\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+    },
+    "request": {
+        "DONE": 4,
+        "HEADERS_RECEIVED": 2,
+        "LOADING": 3,
+        "OPENED": 1,
+        "UNSENT": 0,
+        "_aborted": false,
+        "_cachedResponse": undefined,
+        "_hasError": false,
+        "_headers": {
+            "accept": "application/json, text/plain, */*",
+            "content-type": "application/json"
+        },
+        "_incrementalEvents": false,
+        "_lowerCaseResponseHeaders": {
+            "connection": "keep-alive",
+            "content-length": "78",
+            "content-type": "application/json; charset=utf-8",
+            "date": "Fri, 24 Feb 2023 19:31:54 GMT",
+            "etag": "W/\"4e-GQB7wgcONr8xCHXm6QO4f22dD1w\"",
+            "keep-alive": "timeout=5",
+            "x-powered-by": "Express"
+        },
+        "_method": "POST",
+        "_perfKey": "network_XMLHttpRequest_http://192.168.1.16:3000/api/users",
+        "_performanceLogger": {
+            "_closed": false,
+            "_extras": [Object
+            ],
+            "_pointExtras": [Object
+            ],
+            "_points": [Object
+            ],
+            "_timespans": [Object
+            ]
+        },
+        "_requestId": null,
+        "_response": "{\"success\":true,\"msg\":\"A Otp has been sent to your registered email address.\"}",
+        "_responseType": "",
+        "_sent": true,
+        "_subscriptions": [],
+        "_timedOut": false,
+        "_trackingName": "unknown",
+        "_url": "http://192.168.1.16:3000/api/users",
+        "readyState": 4,
+        "responseHeaders": {
+            "Connection": "keep-alive",
+            "Content-Length": "78",
+            "Content-Type": "application/json; charset=utf-8",
+            "Date": "Fri, 24 Feb 2023 19: 31: 54 GMT", "ETag": "W/\"4e-GQB7wgcONr8xCHXm6QO4f22dD1w\"",
+            "Keep-Alive": "timeout=5",
+            "X-Powered-By": "Express"
+        },
+        "responseURL": "http://192.168.1.16:3000/api/users",
+        "status": 200,
+        "timeout": 0,
+        "upload": {},
+        "withCredentials": true
+    },
+    "status": 200,
+    "statusText": undefined
+}
